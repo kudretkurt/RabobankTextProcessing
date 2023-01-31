@@ -18,8 +18,7 @@ To run the project, make sure to have API startup projects.
 
 ## Testing
 
-- Unit tests are written in xUnit, since this is the most popular framework at the moment. Also I used FluentAssertions.
+- Unit tests are written in xUnit with FluentAssertions.
 - You can use swagger interface or Postman for end-user testing.
 
 
-    

@@ -20,7 +20,7 @@ namespace API.Controllers.v0
 
 
         [HttpPost]
-        [Route("CalculateHighestFrequency")]
+        [Route("calculate-highest-frequency")]
         [Produces("application/json")]
         [SwaggerResponse(StatusCodes.Status200OK, "Successfully response CalculateHighestFrequency")]
         [SwaggerResponse(StatusCodes.Status400BadRequest, type: typeof(ValidationErrorResponse))]
@@ -33,7 +33,7 @@ namespace API.Controllers.v0
         }
 
         [HttpPost]
-        [Route("CalculateFrequencyForWord")]
+        [Route("calculate-frequency-for-word")]
         [Produces("application/json")]
         [SwaggerResponse(StatusCodes.Status200OK, "Successfully response CalculateFrequencyForWord")]
         [SwaggerResponse(StatusCodes.Status400BadRequest, type: typeof(ValidationErrorResponse))]
@@ -46,7 +46,7 @@ namespace API.Controllers.v0
         }
 
         [HttpPost]
-        [Route("CalculateMostFrequentNWords")]
+        [Route("calculate-mostfrequent-nwords")]
         [Produces("application/json")]
         [SwaggerResponse(StatusCodes.Status200OK, "Successfully response CalculateMostFrequentNWords")]
         [SwaggerResponse(StatusCodes.Status400BadRequest, type: typeof(ValidationErrorResponse))]
